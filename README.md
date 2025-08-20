@@ -13,7 +13,6 @@
       3. travel Sgp and UAE 
       4. interview
 3. Today is the third day I start to search jobs,**all the day work logs will be in project root dir logs**
-4. 
 
 ## Execute
 
