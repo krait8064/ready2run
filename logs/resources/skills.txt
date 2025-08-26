@@ -1,0 +1,250 @@
+skills	sum:count
+java	14
+communication	9
+python	7
+agile	5
+ai	5
+kubernetes	4
+kafka	4
+ci/cd	4
+microservices	4
+redis	4
+container	4
+sql	4
+gitlab	3
+scrum	3
+reliability	3
+aws	3
+monitor	3
+ai/ml	3
+go	3
+crossplane	3
+scalable	3
+docker	3
+software engineering life cycle	3
+ml	3
+golang	3
+terraform	3
+financial	2
+spring	2
+arp	2
+concurrency	2
+tcp	2
+ut	2
+restful	2
+azure	2
+http	2
+containerization	2
+istio	2
+large scale	2
+real-time streaming	2
+low latency	2
+c#	2
+maven	2
+availability	2
+azure cloud	2
+security	2
+distributed	2
+spark	2
+dns	2
+springboot	2
+mysql	2
+ssh	2
+networking	2
+bitbucket	2
+tls	2
+udp	2
+jenkins	2
+jira	2
+icmp	2
+performing	1
+mcp	1
+shell	1
+cross-functional	1
+name screening	1
+argocd/rollout/workflow	1
+camel4	1
+css	1
+team managing	1
+data analytics	1
+microsoft entra id	1
+data engineer	1
+on-call	1
+data governance	1
+protocol buffer	1
+data model	1
+sanction checking	1
+data pipelines	1
+sqs	1
+data platforms	1
+traffic management	1
+data quality monitor	1
+microsoft 365	1
+data structures	1
+ai-augmented	1
+databricks	1
+node.js	1
+db2	1
+operational automation	1
+deployments	1
+predictive risk analytics	1
+diagnosis	1
+react js	1
+digital twin	1
+ci-cd	1
+agent frameworks	1
+sdlc	1
+distributed system	1
+cloud security	1
+distributedcloud	1
+strong software engineering fundamentals	1
+diversity. equity. and inclusion	1
+testing framework	1
+artifactory	1
+ar/vr	1
+asset management	1
+microservice	1
+dynamodb	1
+microsoft cloud security	1
+elasticsearch	1
+microsoft purview	1
+endpoint management	1
+multithreading	1
+entra id	1
+ai-driven	1
+etc	1
+no-sql	1
+fargate	1
+open-source java libraries	1
+fault-tolerant	1
+parquet	1
+finance	1
+pipelines	1
+auroratest	1
+prevention	1
+financial crime	1
+cache	1
+financial technology	1
+real-time	1
+fintech	1
+relational-sql	1
+fintech domains	1
+risk management	1
+fixed income products	1
+circleci	1
+flink	1
+cloud infrastructure	1
+flume	1
+solace	1
+flux	1
+sprint	1
+fraud detection	1
+algorithms	1
+front-end	1
+system design	1
+full-stack	1
+comunication	1
+gcp	1
+anti-money laundering	1
+gcp/aws	1
+ui/ux design principles	1
+git	1
+azure policy.	1
+github	1
+message	1
+automate infrastructure workflows	1
+azure security center	1
+gitops	1
+microsoft azure	1
+global traffic	1
+microsoft defender suite	1
+auto-test	1
+microsoft intune	1
+agentic ai	1
+bigquery	1
+gradle	1
+multi-region fail-over	1
+grafana	1
+bottlenecks	1
+hadoop	1
+network	1
+hazelcast	1
+nginx	1
+hbase	1
+nosql	1
+hdfs	1
+observability	1
+high available	1
+openapi	1
+high-traffic	1
+operating systems	1
+hive	1
+orc	1
+html	1
+performance	1
+activemq	1
+pim	1
+http/tcp	1
+postgresql	1
+well-documented	1
+pre-trade	1
+xml	1
+prometheus	1
+ios/android	1
+pulumi	1
+aws cloud constructs	1
+quant	1
+iterative	1
+react/angular	1
+j2ee	1
+real-time data streaming	1
+awsaistack	1
+airflow	1
+java/j2ee	1
+ci/cd pipelines	1
+jdk 17+	1
+retrieval-augmented generation (rag) pipelines	1
+jdk17	1
+sales	1
+aeron	1
+scalability	1
+agent and automation evaluation frameworks	1
+cloud deployment	1
+json	1
+secure landing zone.	1
+junit	1
+service mesh (istio)	1
+azure data factory	1
+cloud platform	1
+kafka.rpc	1
+cloud platforms	1
+kdb/q	1
+cncf	1
+azure key vault	1
+code review	1
+lambda	1
+sre principles	1
+langchain	1
+standard procedures	1
+langfuse	1
+struts	1
+azure networking	1
+compliance	1
+large-scale	1
+teamcity	1
+linux	1
+test	1
+llm agent	1
+tib rv/faster than light	1
+llms	1
+trading	1
+azure platform security	1
+conditional access	1
+low or zero gc	1
+unix	1
+low-latency	1
+argocd	1
+maintainable	1
+.net	1
+identity management	1
+sum	364

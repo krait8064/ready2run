@@ -1,0 +1,364 @@
+software engineering life cycle
+team managing
+communication
+java
+cloud platform
+containerization
+ci/cd pipelines
+financial technology
+data platforms
+ai/ml
+diversity. equity. and inclusion
+large scale
+distributed system
+software engineering life cycle
+standard procedures
+communication
+test
+java
+deployments
+relational-sql
+no-sql
+open-source java libraries
+testing framework
+large scale
+software engineering life cycle
+agile
+scrum
+real-time
+sprint
+high-traffic
+low latency
+global traffic
+multi-region fail-over
+communication
+real-time streaming
+aws
+lambda
+fargate
+sqs
+dynamodb
+auroratest
+java
+python
+go
+scalable
+full-stack
+java
+springboot
+microservices
+react/angular
+ios/android
+sql
+nosql
+ai/ml
+databricks
+awsaistack
+agile
+openapi
+microservices
+jdk17
+springboot
+camel4
+cross-functional
+bottlenecks
+security
+auto-test
+html
+css
+ci/cd
+gitlab
+jenkins
+circleci
+bitbucket
+cloud deployment
+aws cloud constructs
+terraform
+docker
+kubernetes
+kafka
+golang
+java
+python
+sdlc
+system design
+sre principles
+diagnosis
+prevention
+performance
+availability
+communication
+prometheus
+grafana
+ml
+ai
+tcp
+udp
+icmp
+arp
+dns
+tls
+http
+ssh
+java
+golang
+strong software engineering fundamentals
+ci/cd
+pipelines
+monitor
+gitlab
+communication
+linux
+docker
+etc
+kubernetes
+terraform
+aws
+networking
+tcp
+udp
+icmp
+arp
+dns
+tls
+http
+ssh
+ai
+ml
+front-end
+microservices
+azure cloud
+agile
+container
+docker
+kubernetes
+python
+node.js
+ui/ux design principles
+finance
+asset management
+agile
+multithreading
+c#
+react js
+.net
+azure
+sql
+restful
+github
+gitlab
+ci/cd
+ai
+ml
+llms
+agent frameworks
+data analytics
+name screening
+sanction checking
+anti-money laundering
+ai-driven
+scalable
+high available
+low-latency
+distributedcloud
+gcp/aws
+reliability
+data governance
+data pipelines
+data quality monitor
+real-time streaming
+communication
+java
+python
+spring
+concurrency
+data model
+financial crime
+risk management
+compliance
+fintech domains
+llm agent
+retrieval-augmented generation (rag) pipelines
+langchain
+langfuse
+mcp
+predictive risk analytics
+fraud detection
+operational automation
+real-time data streaming
+kafka
+flink
+spark
+bigquery
+airflow
+elasticsearch
+agent and automation evaluation frameworks
+cloud infrastructure
+distributed
+ci/cd
+monitor
+data engineer
+sql
+redis
+network
+container
+istio
+crossplane
+argocd/rollout/workflow
+monitor
+on-call
+ai
+kubernetes
+service mesh (istio)
+crossplane
+gitops
+cloud platforms
+scalable
+fault-tolerant
+containerization
+crossplane
+pulumi
+terraform
+maintainable
+go
+python
+communication
+automate infrastructure workflows
+istio
+traffic management
+observability
+security
+microservices
+argocd
+flux
+gcp
+aws
+azure
+cncf
+ci-cd
+java/j2ee
+spark
+kafka
+flume
+activemq
+hadoop
+hdfs
+hbase
+hive
+orc
+parquet
+maven
+restful
+junit
+jira
+java
+j2ee
+spring
+struts
+container
+sql
+db2
+communication
+ai
+unix
+shell
+financial
+agile
+scrum
+java
+jdk 17+
+sales
+trading
+quant
+pre-trade
+git
+bitbucket
+jira
+teamcity
+maven
+gradle
+jenkins
+artifactory
+message
+solace
+tib rv/faster than light
+aeron
+redis
+hazelcast
+fixed income products
+communication
+low latency
+low or zero gc
+kdb/q
+financial
+large-scale
+availability
+comunication
+go
+java
+mysql
+nginx
+redis
+kafka.rpc
+reliability
+scalability
+java
+golang
+java
+python
+data structures
+algorithms
+networking
+operating systems
+mysql
+redis
+kafka
+container
+microservice
+http/tcp
+xml
+json
+protocol buffer
+distributed
+concurrency
+cache
+fintech
+java
+ai-augmented
+agentic ai
+reliability
+azure cloud
+azure data factory
+scrum
+ut
+postgresql
+cloud security
+microsoft azure
+microsoft 365
+entra id
+microsoft defender suite
+microsoft purview
+microsoft cloud security
+azure platform security
+secure landing zone.
+azure key vault
+azure security center
+azure policy.
+azure networking
+identity management
+microsoft entra id
+conditional access
+pim
+endpoint management
+microsoft intune
+well-documented
+performing
+iterative
+code review
+ut
+digital twin
+ai/ml
+ar/vr
+python
+c#
+java
