@@ -1,5 +1,7 @@
 package org.example.algorithm.dynamic_programming;
 
+import org.junit.Assert;
+
 /**
  * You are given an m x n integer array grid. There is a robot initially located at the top-left corner (i.e., grid[0][0]). The robot tries to move to the bottom-right corner (i.e., grid[m - 1][n - 1]). The robot can only move either down or right at any point in time.
  * <p>
@@ -56,6 +58,35 @@ public class UniquePath2 {
         int[][] obstacleGrid = {{0, 0, 0}, {0, 1, 0}, {0, 0, 0}};
         UniquePath2 uniquePath = new UniquePath2();
         int res = uniquePath.uniquePathsWithObstacles(obstacleGrid);
-        System.out.println(res);
+        Assert.assertEquals(2, res);
+        res = uniquePath.uniquePathsWithObstaclesLocal(obstacleGrid);
+        Assert.assertEquals(2, res);
+        obstacleGrid = new int[][]{{0, 1}, {0, 0}};
+        int res2 = uniquePath.uniquePathsWithObstacles(obstacleGrid);
+        Assert.assertEquals(1, res2);
+        res2 = uniquePath.uniquePathsWithObstaclesLocal(obstacleGrid);
+        Assert.assertEquals(1, res2);
+    }
+
+    public int uniquePathsWithObstaclesLocal(int[][] obstacleGrid) {
+        if (obstacleGrid == null || obstacleGrid.length == 0 || obstacleGrid[0].length == 0) {
+            return 0;
+        }
+        int colLen = obstacleGrid[0].length;
+        int[] dp = new int[colLen];
+        dp[0] = 1;
+        for (int row = 0; row < obstacleGrid.length; row++) {
+            for (int col = 0; col < obstacleGrid[row].length; col++) {
+                if (obstacleGrid[row][col] == 1) {
+                    dp[col] = 0;
+                } else {
+                    if (col > 0) {
+                        dp[col] += dp[col - 1];
+                    }
+                }
+            }
+        }
+
+        return dp[colLen - 1];
     }
 }

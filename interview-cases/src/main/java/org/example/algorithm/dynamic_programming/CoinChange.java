@@ -1,5 +1,7 @@
 package org.example.algorithm.dynamic_programming;
 
+import org.junit.Assert;
+
 import java.util.Arrays;
 
 /**
@@ -45,6 +47,24 @@ public class CoinChange {
 
     public static void main(String[] args) {
         CoinChange coinChange = new CoinChange();
-        coinChange.coinChange(new int[]{1, 2, 5}, 11);
+//        int res = coinChange.coinChange(new int[]{1, 2, 5}, 11);
+        int res = coinChange.coinChangeLocal(new int[]{1, 2, 5}, 11);
+        Assert.assertEquals(res, 3);
+    }
+
+    private int coinChangeLocal(int[] coins, int amount) {
+        int[] res = new int[amount + 1];
+        Arrays.fill(res, amount + 1);
+        res[0] = 0;
+        for (int i = 1; i < amount + 1; i++) {
+            for (int coin : coins) {
+                int indexDif = i - coin;
+                if (indexDif >= 0) {
+                    res[i] = Math.min(res[i], res[indexDif] + 1);
+                }
+            }
+
+        }
+        return res[amount] != amount + 1 ? res[amount] : -1;
     }
 }

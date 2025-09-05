@@ -50,9 +50,9 @@ public class HouseRobber {
     public static void main(String[] args) {
         HouseRobber houseRobber = new HouseRobber();
 //        int res = houseRobber.robLocal(new int[]{1, 2, 3, 1});
-        int res = houseRobber.rob(new int[]{1, 2, 3, 1});
+        int res = houseRobber.robLocalRes(new int[]{1, 2, 3, 1});
         Assert.assertEquals(4, res);
-        int res2 = houseRobber.robLocal(new int[]{2, 7, 9, 3, 1});
+        int res2 = houseRobber.robLocalRes(new int[]{2, 7, 9, 3, 1});
         Assert.assertEquals(12, res2);
     }
 
@@ -92,5 +92,18 @@ public class HouseRobber {
         int result = Math.max(rob(nums, i - 2) + nums[i], rob(nums, i - 1));
         memo[i] = result;
         return result;
+    }
+
+    public int robLocalRes(int[] nums) {
+        if (nums.length == 0) return 0;
+        int prev1 = 0;
+        int prev2 = 0;
+        for (int cur : nums) {
+            int temp = prev1;
+            prev1 = Math.max(prev2 + cur, prev1);
+            prev2 = temp;
+        }
+
+        return prev1;
     }
 }

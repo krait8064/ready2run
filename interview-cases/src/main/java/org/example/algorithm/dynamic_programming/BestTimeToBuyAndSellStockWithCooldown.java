@@ -22,7 +22,7 @@ import org.junit.Assert;
  * Input: prices = [1]
  * Output: 0
  */
-public class StockWithCooldown {
+public class BestTimeToBuyAndSellStockWithCooldown {
 
     public int maxProfit(int[] prices) {
         if (prices == null || prices.length < 2) {
@@ -52,7 +52,7 @@ public class StockWithCooldown {
     }
 
     public static void main(String[] args) {
-        StockWithCooldown stockWithCooldown = new StockWithCooldown();
+        BestTimeToBuyAndSellStockWithCooldown stockWithCooldown = new BestTimeToBuyAndSellStockWithCooldown();
         int res = stockWithCooldown.maxProfit(new int[]{1, 2, 3, 0, 2});
         Assert.assertEquals(3, res);
     }

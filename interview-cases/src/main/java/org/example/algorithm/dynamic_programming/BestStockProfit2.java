@@ -1,4 +1,4 @@
-package org.example.algorithm.array_and_strings;
+package org.example.algorithm.dynamic_programming;
 
 public class BestStockProfit2 {
     public int maxProfit(int[] prices) {
